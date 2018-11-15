@@ -10,6 +10,7 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet var titleLabel: UILabel!
     
     //Navigation Bar Items
     @IBOutlet var logoutBarButton: UIBarButtonItem!
